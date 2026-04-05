@@ -1,6 +1,6 @@
 services:
   bot:
-    build: ./bot
+    build: ./mc-tracker-bot
     env_file:
-      - ./bot/.env
+      - ./mc-tracker-bot/.env
     restart: unless-stopped
